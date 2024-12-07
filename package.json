@@ -1,0 +1,28 @@
+{
+  "name": "fastx-redesign",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js",
+    "build": "npm install"
+  },
+  "author": "sobran",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.7",
+    "otp-generator": "^4.0.1",
+    "path": "^0.12.7",
+    "react-scrollbars-custom": "^4.1.1",
+    "twilio": "^5.0.4"
+  }
+}
